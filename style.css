@@ -18,7 +18,10 @@ html,body{
 }
 .row{
     margin: 8px 0;
-  
+    width: 68%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .row input{
     font-size: 20px;
@@ -27,7 +30,7 @@ html,body{
     border: 2px solid black;
     border-radius: 5px;
     background-color: rgb(200, 200, 222);
-    
+    min-width: 10%;
 }
 .button:hover{
     background-color: cornflowerblue;
